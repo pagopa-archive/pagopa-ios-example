@@ -1,0 +1,6 @@
+framework module wallet_core_sdk {
+  umbrella header "wallet_core_sdk.h"
+
+  export *
+  module * { export * }
+}

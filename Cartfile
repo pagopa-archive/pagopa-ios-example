@@ -1,0 +1,4 @@
+github "rs/SDWebImage"
+github "PureLayout/PureLayout"
+github "jdg/MBProgressHUD" ~> 1.0.0
+
