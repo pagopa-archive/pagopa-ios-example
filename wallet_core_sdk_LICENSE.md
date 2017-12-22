@@ -36,7 +36,7 @@ Il Programma è fornito al Licenziatario nello stato di fatto. Ad eccezione dei 
 
 ## Limitazione di responsabilità
 
-In nessun caso AgID e i danti causa di AgID, incluso i fornitori della stessa, saranno responsabili di qualsivoglia danno, rivendicazione o costo di qualsiasi tipo, o per qualsivoglia danno consequenziale, indiretto, incidentale o per qualsiasi perdita di profitto o perdita di risparmi, , né saranno responsabili di alcuna rivendicazione da parte di qualsiasi terzo. Tali limitazioni ed esclusioni si applicano nella misura permessa dalla legge applicabile nella giurisdizione del Licenziatario.
+In nessun caso AgID e i danti causa di AgID, incluso i fornitori della stessa, saranno responsabili di qualsivoglia danno, rivendicazione o costo di qualsiasi tipo, o per qualsivoglia danno consequenziale, indiretto, incidentale o per qualsiasi perdita di profitto o perdita di risparmi, né saranno responsabili di alcuna rivendicazione da parte di qualsiasi terzo. Tali limitazioni ed esclusioni si applicano nella misura permessa dalla legge applicabile nella giurisdizione del Licenziatario.
 
 ## Legge applicabile e foro competente
 Le norme applicabili al presente atto sono quelle previste nell'ordinamento italiano.
