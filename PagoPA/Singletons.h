@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@import wallet_core_sdk;
+@import PagoPaSDK;
 
 @interface Singletons : NSObject
 

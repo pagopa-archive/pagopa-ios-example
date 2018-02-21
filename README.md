@@ -55,9 +55,9 @@ Install Carthage from https://github.com/Carthage/Carthage
 
 Run `carthage update`
 
-Download `wallet_core_sdk.framework` from the latest binary release, and add it to the build folder of Carthage frameworks.
+Download `PagoPaSDK.framework` from the latest binary release, and add it to the build folder of Carthage frameworks.
 
-Add the following libraries to Carthage: `MBProgressHUD.framework`, `PureLayout.framework`, `SDWebImage.framework` e `wallet_core_sdk.framework`
+Add the following libraries to Carthage: `MBProgressHUD.framework`, `PureLayout.framework`, `SDWebImage.framework` e `PagoPaSDK.framework`
 
 To do so, follow these steps (extracted from Carthage documentation):
 
@@ -73,7 +73,7 @@ Add the paths to the frameworks you want to use under “Input Files”, e.g.:
 $(SRCROOT)/Carthage/Build/iOS/MBProgressHUD.framework
 $(SRCROOT)/Carthage/Build/iOS/PureLayout.framework
 $(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework
-$(SRCROOT)/Carthage/Build/iOS/wallet_core_sdk.framework
+$(SRCROOT)/Carthage/Build/iOS/PagoPaSDK.framework
 ```
 
 Add the paths to the copied frameworks to the “Output Files”, e.g.:
@@ -82,7 +82,7 @@ Add the paths to the copied frameworks to the “Output Files”, e.g.:
 $(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MBProgressHUD.framework
 $(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PureLayout.framework
 $(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SDWebImage.framework
-$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/wallet_core_sdk.framework
+$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PagoPaSDK.framework
 ```
 
 With output files specified alongside the input files, Xcode only needs to run the script when the input files have changed or the output files are missing. This means dirty builds will be faster when you haven't rebuilt frameworks with Carthage.
@@ -90,4 +90,4 @@ With output files specified alongside the input files, Xcode only needs to run t
 # Licensing
 
 Licensed under the BSD-3-Clause license agreement. See [`LICENSE`](LICENSE) for further details.
-The `wallet_core_sdk` library, interacting with the core data of a card, is not part of this repository and is not licensed under BSD-3-Clause, and it is only distributed under binary form, in order to be compliant with the PCI certification. You can use and redistribute the binary component as you wish, but with no warranty whatsoever. Please see [its license](wallet_core_sdk_LICENSE) (in Italian) for further details and the full text of the license.
+The `PagoPaSDK` library, interacting with the core data of a card, is not part of this repository and is not licensed under BSD-3-Clause, and it is only distributed under binary form, in order to be compliant with the PCI certification. You can use and redistribute the binary component as you wish, but with no warranty whatsoever. Please see [its license](PagoPaSDK_LICENSE) (in Italian) for further details and the full text of the license.

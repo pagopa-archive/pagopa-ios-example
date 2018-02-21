@@ -1,6 +1,6 @@
 #import "AppDelegate.h"
 #import "Singletons.h"
-@import wallet_core_sdk;
+@import PagoPaSDK;
 
 @implementation AppDelegate
 

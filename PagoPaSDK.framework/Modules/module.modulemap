@@ -1,0 +1,6 @@
+framework module PagoPaSDK {
+  umbrella header "PagoPaSDK.h"
+
+  export *
+  module * { export * }
+}
