@@ -90,4 +90,4 @@ With output files specified alongside the input files, Xcode only needs to run t
 # Licensing
 
 Licensed under the BSD-3-Clause license agreement. See [`LICENSE`](LICENSE) for further details.
-The `PagoPaSDK` library, interacting with the core data of a card, is not part of this repository and is not licensed under BSD-3-Clause, and it is only distributed under binary form, in order to be compliant with the PCI certification. You can use and redistribute the binary component as you wish, but with no warranty whatsoever. Please see [its license](PagoPaSDK_LICENSE) (in Italian) for further details and the full text of the license.
+The `PagoPaSDK` library, interacting with the core data of a card, is not part of this repository and is not licensed under BSD-3-Clause, and it is only distributed under binary form, in order to be compliant with the PCI certification. You can use and redistribute the binary component as you wish, but with no warranty whatsoever. Please see [its license](licenza_PagoPaSDK.md) (in Italian) for further details and the full text of the license.
