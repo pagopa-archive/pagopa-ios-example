@@ -1,7 +1,4 @@
 //
-//  SpkL18nObjC.h
-
-//
 //  Created  on 10/10/17.
 //  
 //

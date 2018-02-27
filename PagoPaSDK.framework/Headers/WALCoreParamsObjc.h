@@ -2,8 +2,6 @@
 //  WALCoreParamsObjc.h
 //  PagoPaSDK
 //
-//  Created by Davide Di Stefano on 02/02/18.
-//
 
 #import <Foundation/Foundation.h>
 #import "WALCoreParamsInterface.h"
