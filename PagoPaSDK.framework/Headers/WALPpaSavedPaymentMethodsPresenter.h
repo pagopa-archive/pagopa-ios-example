@@ -11,4 +11,8 @@
 
 - (void)addPaymentMethod;
 
+- (void)newFavouriteMethod:(int64_t)walletId;
+
+- (void)deleteMethod:(int64_t)walletId;
+
 @end

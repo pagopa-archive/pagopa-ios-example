@@ -9,12 +9,15 @@
 @protocol WALPpaConfirmCreditCardPaymentView;
 @protocol WALPpaConfirmResetPasswordView;
 @protocol WALPpaCreditCardSelectAcquirerView;
+@protocol WALPpaEmailSentView;
+@protocol WALPpaErrorPaymentView;
 @protocol WALPpaExternalPaymentView;
 @protocol WALPpaInsertEmailView;
 @protocol WALPpaInsertOtpView;
 @protocol WALPpaInsertPasswordView;
 @protocol WALPpaInsertSecretCodeView;
 @protocol WALPpaLoadingView;
+@protocol WALPpaModifyEmailView;
 @protocol WALPpaOtherPaymentMethodTypesView;
 @protocol WALPpaPaymentCompletedView;
 @protocol WALPpaPaymentMethodTypesView;
@@ -36,10 +39,13 @@
 @protocol WALPpaTopBarView;
 @protocol WALPpaTransactionDetailView;
 @protocol WALPpaTransactionsListView;
+@protocol WALPpaUnactivatedEmailView;
 @protocol WALPpaUnregisteredPaymentCompletedView;
 @protocol WALPpaUserMenuView;
+@protocol WALPpaUserRemovedView;
 @protocol WALPpaWaitingForPaymentView;
 @protocol WALPpaWebOperationView;
+@protocol WALPpaWebPaymentView;
 
 
 @protocol WALPpaViewsBuilder
@@ -117,5 +123,17 @@
 - (nullable id<WALPpaRecoveryResultView>)openPpaRecoveryResult:(nonnull WALUiRouteInformation *)iRouteInformation;
 
 - (nullable id<WALPpaConfirmResetPasswordView>)openPpaConfirmResetPassword:(nonnull WALUiRouteInformation *)iRouteInformation;
+
+- (nullable id<WALPpaUnactivatedEmailView>)openPpaUnactivatedEmailView:(nonnull WALUiRouteInformation *)uiRouteInformation;
+
+- (nullable id<WALPpaEmailSentView>)openPpaEmailSentView:(nonnull WALUiRouteInformation *)uiRouteInformation;
+
+- (nullable id<WALPpaUserRemovedView>)openPpaUserRemovedView:(nonnull WALUiRouteInformation *)uiRouteInformation;
+
+- (nullable id<WALPpaModifyEmailView>)openPpaModifyEmailView:(nonnull WALUiRouteInformation *)uiRouteInformation;
+
+- (nullable id<WALPpaWebPaymentView>)openPpaWebPaymentView:(nonnull WALUiRouteInformation *)uiRouteInformation;
+
+- (nullable id<WALPpaErrorPaymentView>)openPpaErrorPaymentView:(nonnull WALUiRouteInformation *)uiRouteInformation;
 
 @end

@@ -21,4 +21,6 @@
 
 - (WALDeviceOs)getOSType;
 
+- (nonnull NSString *)getFingerprint;
+
 @end

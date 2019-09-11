@@ -25,7 +25,7 @@ typedef enum : NSUInteger {
 
 -(instancetype) init;
 
-#define PPA_BLUE_COLOR [UIColor colorWithRed:0.22 green:0.30 blue:0.77 alpha:1.0]
+#define PPA_BLUE_COLOR [UIColor colorWithRed:0.0 green:0.45 blue:0.9 alpha:1.0]
 #define PPA_DARK_TURQUOISE [UIColor colorWithRed:0.00 green:0.78 blue:0.80 alpha:1.0]
 #define PPA_PALE_TURQUOISE [UIColor colorWithRed:0.67 green:0.94 blue:0.94 alpha:1.0]
 #define PPA_BACKGROUND_COLOR [UIColor colorWithRed:0.96 green:0.96 blue:0.96 alpha:1.0]

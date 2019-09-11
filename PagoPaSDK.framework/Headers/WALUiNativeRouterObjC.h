@@ -11,11 +11,20 @@
 #import "WALBundle.h"
 #import "WALUiRouteInformation.h"
 
+@class WALUiNativeRouterObjC;
+
+@protocol WALUiNativeRouterObjCDelegate <NSObject>
+
+@optional
+-(void) nativeRouterDidCloseAllScreens:(WALUiNativeRouterObjC *) nativeRouter;
+
+@end
 
 @interface WALUiNativeRouterObjC : NSObject <WALUiNativeRouter>
 
 -(instancetype) initWithNavigationController:(UINavigationController *) navigationController;
 
+@property (nonatomic, weak) id<WALUiNativeRouterObjCDelegate> delegate;
 @property (strong, nonatomic) UINavigationController * navigationController;
 @property (strong, nonnull, nonatomic) WALBundle * bundle;
 

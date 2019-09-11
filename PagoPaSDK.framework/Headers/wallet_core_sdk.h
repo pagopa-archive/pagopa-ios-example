@@ -14,6 +14,7 @@ FOUNDATION_EXPORT const unsigned char wallet_core_sdkVersionString[];
 #import <wallet_core_sdk/WALHttpObjc.h>
 #import <wallet_core_sdk/WALI18nObjC.h>
 #import <wallet_core_sdk/WALLoggerObjc.h>
+#import <wallet_core_sdk/WALDateFormatterObjc.h>
 #import <wallet_core_sdk/WALPreferencesObjc.h>
 #import <wallet_core_sdk/WALThreadLauncherObjC.h>
 #import <wallet_core_sdk/WALUiNativeRouterObjC.h>

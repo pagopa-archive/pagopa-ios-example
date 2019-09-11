@@ -11,4 +11,6 @@
 
 - (void)showEditPhoneNumber:(BOOL)showEditPhoneNumber;
 
+- (void)setTopMessage:(nonnull NSString *)messageType;
+
 @end

@@ -12,4 +12,6 @@
 
 - (void)setMethodsFee:(nonnull WALPpaPaymentMethodTypeVm *)paymentMethodsFee;
 
+- (void)setIsBolloDigitale:(BOOL)bollodigitale;
+
 @end

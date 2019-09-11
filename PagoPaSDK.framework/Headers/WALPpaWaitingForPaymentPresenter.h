@@ -6,6 +6,4 @@
 
 @interface WALPpaWaitingForPaymentPresenter : NSObject
 
-- (void)close;
-
 @end

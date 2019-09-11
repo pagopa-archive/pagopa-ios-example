@@ -17,6 +17,7 @@ FOUNDATION_EXPORT const unsigned char PagoPaSDKVersionString[];
 #import <PagoPaSDK/WALBundle.h>
 #import <PagoPaSDK/PPAViewsBuilderObjc.h>
 #import <PagoPaSDK/WALUiNativeRouterObjC.h>
+#import <PagoPaSDK/PPAUINativeRouterObj.h>
 #import <PagoPaSDK/PPAAppearance.h>
 
 // Core
@@ -47,6 +48,7 @@ FOUNDATION_EXPORT const unsigned char PagoPaSDKVersionString[];
 #import <PagoPaSDK/WALI18n.h>
 #import <PagoPaSDK/WALLifecycle.h>
 #import <PagoPaSDK/WALLogger.h>
+#import <PagoPaSDK/WALDateFormatter.h>
 #import <PagoPaSDK/WALPpaPaymentMethodVm.h>
 #import <PagoPaSDK/WALPpaPaymentVm.h>
 #import <PagoPaSDK/WALPpaWalletType.h>
@@ -76,6 +78,7 @@ FOUNDATION_EXPORT const unsigned char PagoPaSDKVersionString[];
 #import <PagoPaSDK/WALPpaConfirmCreditCardPaymentPresenter.h>
 #import <PagoPaSDK/WALPpaConfirmCreditCardPaymentView.h>
 #import <PagoPaSDK/WALPpaConfirmResetPasswordPresenter.h>
+
 #import <PagoPaSDK/WALPpaConfirmResetPasswordView.h>
 #import <PagoPaSDK/WALPpaCreditCardSelectAcquirerPresenter.h>
 #import <PagoPaSDK/WALPpaCreditCardSelectAcquirerView.h>
@@ -153,6 +156,8 @@ FOUNDATION_EXPORT const unsigned char PagoPaSDKVersionString[];
 #import <PagoPaSDK/WALPpaWaitingForPaymentView.h>
 #import <PagoPaSDK/WALPpaWebOperationPresenter.h>
 #import <PagoPaSDK/WALPpaWebOperationView.h>
+#import <PagoPaSDK/WALPpaUnactivatedEmailPresenter.h>
+#import <PagoPaSDK/WALPpaUnactivatedEmailView.h>
 
 
 #endif /* PagoPaSDK_h */

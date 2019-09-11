@@ -14,6 +14,7 @@
 #import "WALBundle.h"
 #import "WALI18nObjC.h"
 #import "WALLoggerObjc.h"
+#import "WALDateFormatterObjc.h"
 #import "WALCoreViewsBuilderObjC.h"
 #import "WALCore.h"
 #import "WALPreferencesObjc.h"
@@ -30,6 +31,7 @@
 @property (strong, nonatomic) WALHttpObjc * http;
 @property (strong, nonatomic) WALI18nObjC * I18n;
 @property (strong, nonatomic) WALLoggerObjc * logger;
+@property (strong, nonatomic) WALDateFormatterObjc * dateFormatter;
 @property (strong, nonatomic) id<WALCoreViewsBuilder> coreViewsBuilder;
 @property (strong, nonatomic) WALPreferencesObjc * preferences;
 @property (strong, nonatomic) WALDeviceObjc * device;

@@ -11,4 +11,6 @@
 
 - (void)openWhyFee;
 
+- (void)searchPaymentMethod:(nonnull NSString *)textSearch;
+
 @end

@@ -28,10 +28,8 @@
 
 @interface PagoPACore : NSObject
 
--(instancetype) init;
--(instancetype) initWithBaseUrl:(NSString *) baseUrl;
--(instancetype) initWithViewsBuilder:(PPAViewsBuilderObjc *) viewsBuilder;
--(instancetype) initWithBaseUrl:(NSString *) baseUrl viewsBuilder:(PPAViewsBuilderObjc *) viewsBuilder;
+-(instancetype) init: (NSString *) baseUrl;
+-(instancetype) initWithViewsBuilder:(NSString *) baseUrl viewsBuilder:(PPAViewsBuilderObjc *) viewsBuilder;
 
 -(void) startPaymentSessionWithPaymentId:(NSString *) paymentId presentingViewController:(UIViewController*) presentingViewController delegate:(id<PagoPACoreDelegate>) delegate;
 

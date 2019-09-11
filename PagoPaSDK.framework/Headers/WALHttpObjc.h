@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "WALHttp.h"
 
-@interface WALHttpObjc : NSObject <WALHttp>
+@interface WALHttpObjc : NSObject <WALHttp,NSURLSessionDelegate,NSURLSessionDataDelegate>
 
 
 @end

@@ -10,8 +10,6 @@
 
 - (void)setPresenter:(nullable WALPpaWaitingForPaymentPresenter *)presenter;
 
-- (void)openNativeWebBrowser:(nonnull NSString *)url;
-
 - (void)setPaymentStatus:(WALPpaPaymentStatus)paymentStatus;
 
 - (void)setPaymentDeferred:(BOOL)deferred;

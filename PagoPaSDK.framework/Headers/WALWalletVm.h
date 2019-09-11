@@ -9,6 +9,7 @@
                                favourite:(BOOL)favourite
                                    alias:(nonnull NSString *)alias
                                  logoUrl:(nonnull NSString *)logoUrl
+                                 logoPsp:(nonnull NSString *)logoPsp
                                lastUsage:(nonnull NSString *)lastUsage
                                   number:(nonnull NSString *)number
                              expireMonth:(int64_t)expireMonth
@@ -20,6 +21,7 @@
                                    favourite:(BOOL)favourite
                                        alias:(nonnull NSString *)alias
                                      logoUrl:(nonnull NSString *)logoUrl
+                                     logoPsp:(nonnull NSString *)logoPsp
                                    lastUsage:(nonnull NSString *)lastUsage
                                       number:(nonnull NSString *)number
                                  expireMonth:(int64_t)expireMonth
@@ -35,6 +37,8 @@
 @property (nonatomic, readonly, nonnull) NSString * alias;
 
 @property (nonatomic, readonly, nonnull) NSString * logoUrl;
+
+@property (nonatomic, readonly, nonnull) NSString * logoPsp;
 
 @property (nonatomic, readonly, nonnull) NSString * lastUsage;
 

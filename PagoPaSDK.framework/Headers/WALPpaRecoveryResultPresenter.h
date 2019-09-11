@@ -6,6 +6,6 @@
 
 @interface WALPpaRecoveryResultPresenter : NSObject
 
-- (void)proceed;
+- (void)proceed:(BOOL)success;
 
 @end

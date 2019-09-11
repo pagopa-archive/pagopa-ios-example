@@ -15,4 +15,6 @@
 
 - (void)setPaymentType:(WALPpaWalletType)walletType;
 
+- (void)setInitialEmail:(nonnull NSString *)email;
+
 @end

@@ -6,8 +6,6 @@
 
 @interface WALPpaRecoveryInsertPasswordPresenter : NSObject
 
-- (void)openAccountRecovery;
-
 - (void)proceed:(nonnull NSString *)password;
 
 @end

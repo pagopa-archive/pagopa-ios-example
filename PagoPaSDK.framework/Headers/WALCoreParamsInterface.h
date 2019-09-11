@@ -4,6 +4,7 @@
 #import "WALHttpSessionTokenType.h"
 #import <Foundation/Foundation.h>
 @protocol WALCoreViewsBuilder;
+@protocol WALDateFormatter;
 @protocol WALDeviceInformations;
 @protocol WALEventLoop;
 @protocol WALHttp;
@@ -29,6 +30,8 @@
 - (nullable id<WALI18n>)getI18n;
 
 - (nullable id<WALLogger>)getLogger;
+
+- (nullable id<WALDateFormatter>)getDateFormatter;
 
 - (nullable id<WALPreferences>)getPreferences;
 

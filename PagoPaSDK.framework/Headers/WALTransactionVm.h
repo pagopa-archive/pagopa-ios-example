@@ -13,7 +13,11 @@
                                 statusMessage:(nonnull NSString *)statusMessage
                                         error:(BOOL)error
                                           fee:(nonnull NSString *)fee
-                                        total:(nonnull NSString *)total;
+                                        total:(nonnull NSString *)total
+                               urlCheckout3ds:(nonnull NSString *)urlCheckout3ds
+                               urlRedirectPSP:(nonnull NSString *)urlRedirectPSP
+                                     idStatus:(int64_t)idStatus
+                                        token:(nonnull NSString *)token;
 + (nonnull instancetype)transactionVmWithTransactionId:(int64_t)transactionId
                                                created:(nonnull NSString *)created
                                                updated:(nonnull NSString *)updated
@@ -23,7 +27,11 @@
                                          statusMessage:(nonnull NSString *)statusMessage
                                                  error:(BOOL)error
                                                    fee:(nonnull NSString *)fee
-                                                 total:(nonnull NSString *)total;
+                                                 total:(nonnull NSString *)total
+                                        urlCheckout3ds:(nonnull NSString *)urlCheckout3ds
+                                        urlRedirectPSP:(nonnull NSString *)urlRedirectPSP
+                                              idStatus:(int64_t)idStatus
+                                                 token:(nonnull NSString *)token;
 
 @property (nonatomic, readonly) int64_t transactionId;
 
@@ -44,5 +52,13 @@
 @property (nonatomic, readonly, nonnull) NSString * fee;
 
 @property (nonatomic, readonly, nonnull) NSString * total;
+
+@property (nonatomic, readonly, nonnull) NSString * urlCheckout3ds;
+
+@property (nonatomic, readonly, nonnull) NSString * urlRedirectPSP;
+
+@property (nonatomic, readonly) int64_t idStatus;
+
+@property (nonatomic, readonly, nonnull) NSString * token;
 
 @end
